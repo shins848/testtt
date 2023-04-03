@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="info4css">
+    </head>
+    <body>
+
+        <audio controls class="music1">
+            <source src="sigkei-sik-k-is-it-love-feat-moon-prod-gxxd-official-audio-128-ytshorts.savetube.me.mp3" type="audio/mpeg">
+          </audio>
+
+<table>
+    <thead>
+       <tr>
+          <th>Title</th>
+          <th>Artist</th>
+          <th>Date</th>
+          <th>Cover</th>
+
+       </tr>
+    </thead>
+    <tbody id="data-output">
+       <!-- Prodcuts from javascript file in here. -->
+    </tbody>
+ </table>
+      
+        
+        <script src="info5.js" async defer></script>
+    </body>
+</html>

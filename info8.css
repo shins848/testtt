@@ -1,0 +1,28 @@
+tr {
+    color: white;
+}
+
+table {
+    background-image: url(https://images.complex.com/complex/images/c_scale,f_auto,q_auto,w_1920/fl_lossy,pg_1/gf06pkicxiatqptkjpid/umi?fimg-ssr-default);
+    border-radius: 60px;
+    margin: 15% auto;
+    font-size: 1.3rem;
+}
+
+th, td {
+    padding: 90px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-top: 0rem;
+}
+
+.music1 {
+    margin-left:  77.5rem;
+    margin-bottom: -58em;
+    width: 17rem;

@@ -1,0 +1,120 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: medium;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.music1 {
+  margin-left:  65rem;
+  margin-bottom: -35rem;
+  width: 20rem;
+
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .landing-page {
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/2019-03/28/13/asset/buzzfeed-prod-web-06/sub-buzz-2375-1553793040-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.75);
+  
+
+}
+.container .landing-page .vinyl-container {
+  margin-top: 90px;
+  position: relative;
+  height: 299.2px;
+  width: 430px;
+  
+}
+.container .landing-page .vinyl-container .album-cover {
+  position: absolute;
+  z-index: 1;
+}
+.container .landing-page .vinyl-container .album-cover img {
+  width: 80%;
+}
+.container .landing-page .vinyl-container .vinyl-record {
+  position: absolute;
+  left: 130px;
+}
+.container .landing-page .vinyl-container .vinyl-record img {
+  height: 299.2px;
+}
+.container .landing-page .text-container {
+  margin-top: 150px;
+}
+.container .landing-page .text-container img {
+  width: 80%;
+}
+.container .landing-page .text-container div {
+  margin-bottom: 40px;
+}
+.container .landing-page .text-container .ordernow {
+  cursor: pointer;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 4s linear infinite;
+  -moz-animation: rotating 4s linear infinite;
+  -ms-animation: rotating 4s linear infinite;
+  -o-animation: rotating 4s linear infinite;
+  animation: rotating 4s linear infinite;
+}
+

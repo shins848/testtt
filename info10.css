@@ -1,0 +1,29 @@
+tr {
+    color: white;
+}
+
+table {
+    background-image: url(https://media.timeout.com/images/105528513/image.jpg);
+    background-size: 1700px;
+    border-radius: 60px;
+    margin: 15% auto;
+    font-size: 1.3rem;
+}
+
+th, td {
+    padding: 90px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin-top: 0rem;
+}
+
+.music1 {
+    margin-left:  84.7rem;
+    margin-bottom: -58em;
+    width: 17rem;

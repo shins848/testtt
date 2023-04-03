@@ -1,0 +1,26 @@
+tr {
+    color: white;
+}
+
+table {
+    background-image: url(https://static.hiphopdx.com/2022/12/sza-visual-new-single-nobody-gets-me.jpeg);
+    border-radius: 10px;
+    margin: 15% auto;
+    font-size: 1.3rem;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    font-family: monospace;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.music1 {
+    margin-left:  68.5rem;
+    margin-bottom: -40em;
+    width: 17rem;
